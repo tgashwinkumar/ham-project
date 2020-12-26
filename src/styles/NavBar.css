@@ -1,0 +1,23 @@
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .navBar-container{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .navBar-first{
+        margin: 0;
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        
+        background: whitesmoke;
+        border-radius: 50%;
+        box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
