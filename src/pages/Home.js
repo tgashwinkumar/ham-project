@@ -1,9 +1,10 @@
 import React from 'react'
+import '../styles/Home.css'
 
 const Home = () => {
     return (
         <>
-            <div className="hover-container" style={HoverContainerStyles}></div>
+            <div className="hover-container"></div>
             <div className="container">
 
             </div>
@@ -12,7 +13,3 @@ const Home = () => {
 }
 
 export default Home
-
-const HoverContainerStyles = {
-    
-}
