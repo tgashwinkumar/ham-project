@@ -3,3 +3,13 @@
   padding:0;
   box-sizing: border-box;
 }
+
+.App{
+  margin: 40px;
+  background: rgba(216, 229, 242, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
