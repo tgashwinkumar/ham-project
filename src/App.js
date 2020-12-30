@@ -16,6 +16,10 @@ function App() {
   ]
 
   return (
+    <>
+    <div className="hover-container">
+      <div className="hover-wrapper"></div>
+    </div>
     <div className="App">
       <Switch>
         {
@@ -23,6 +27,7 @@ function App() {
         }
       </Switch>
     </div>
+    </>
   );
 }
 
