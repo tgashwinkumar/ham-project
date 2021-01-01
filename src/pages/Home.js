@@ -14,9 +14,9 @@ const Home = () => {
                         <span>Government of India</span>
                     </p>
                 </div>
-                <div className="home-content">
+                {/* <div className="home-content">
                     Fetch your data from this awesome dashboard.
-                </div>
+                </div> */}
             </div>
             <div className="home-container home-inner-container">
                 <nav className="home-nav">
