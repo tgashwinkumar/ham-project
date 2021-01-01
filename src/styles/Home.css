@@ -71,7 +71,6 @@
     transform: translateY(-50%);
     font-size: 2.5rem;
     font-weight: bold;
-    width: 400px;
 }
 
 .home-nav{
@@ -95,4 +94,12 @@
 
 .home-nav span:hover{
     color: rgba(255, 255, 255, 1);
+}
+
+.flashcards-container{
+    position: absolute;
+    width: 50vw;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
 }
