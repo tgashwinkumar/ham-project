@@ -1,10 +1,13 @@
 import React from 'react'
+import VerticalNav from '../components/VerticalNav'
 
 const Statistics = () => {
+
+
     return (
-        <div>
-            Statistics
-        </div>
+        <React.Fragment>
+            <VerticalNav />
+        </React.Fragment>
     )
 }
 
