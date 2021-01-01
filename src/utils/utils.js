@@ -5,6 +5,7 @@ export const statNav = [
     {name: "Trade Balance", to:"/blah/blah", icon:""},
     {name: "Monthly and Quarterly Trade Data", to:"/blah/blah", icon:""},
     {name: "Trade Indicators", to:"/blah/blah", icon:""},
+    {name: "All Products", to:"/blah/blah", icon:""},
     {name: "Animal", to:"/blah/blah", icon:""},
     {name: "Vegetable", to:"/blah/blah", icon:""},
     {name: "Food Products", to:"/blah/blah", icon:""},
@@ -20,6 +21,6 @@ export const statNav = [
     {name: "Metals", to:"/blah/blah", icon:""},
     {name: "Mach and Elec", to:"/blah/blah", icon:""},
     {name: "Transportation", to:"/blah/blah", icon:""},
-    {name: "Miscellaneous", to:"/blah/blah", icon:""},
-    {name: "All Products", to:"/blah/blah", icon:""}
+    {name: "Miscellaneous", to:"/blah/blah", icon:""}
+
 ]
