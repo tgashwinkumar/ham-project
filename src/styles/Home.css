@@ -55,8 +55,12 @@
     flex-direction: column;
 }
 
-.home-title p span{
+.home-title p span:first-child{
     font-size: 1.25rem;
+}
+
+.home-title p span:last-child{
+    font-size: 1rem;
 }
 
 .home-content{
