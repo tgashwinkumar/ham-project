@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react'
-import { Route, Switch} from 'react-router';
+import {BrowserRouter, Route, Switch} from 'react-router';
 import Home from './pages/Home'
 import Documents from './pages/Documents'
 import Statistics from './pages/Statistics';
@@ -17,11 +17,13 @@ function App() {
 
   return (
     <div className="App">
-      <Switch>
-        {
-          routes.map(route => <Route exact path={route.path} component={route.component}/>)
-        }
-      </Switch>
+      <BrowserRouter>
+        <Switch>
+          {
+            routes.map(route => <Route exact path={route.path} component={route.component}/>)
+          }
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

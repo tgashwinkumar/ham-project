@@ -1,0 +1,11 @@
+.statis-header{
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.statis-header img{
+    height: 50px;
+    object-fit: contain;
+}

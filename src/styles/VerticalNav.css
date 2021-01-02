@@ -1,5 +1,7 @@
 .nav-container{
     position: absolute;
+    top: 0;
+    z-index: 5;
     width: 400px;
     height: 100vh;
     background: #191970;
